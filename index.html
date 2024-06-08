@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+    <form  name="myForm" class="m-auto bg-white border rounded p-5" style="width: 350px; height: 420px;" onsubmit="return (result())">
+
+        <h2  class="text-center">BMI Calculator</h2>
+            <h5>Height(cm):</h5>
+            <input name="Height" type="text" style="width:250px ;margin-bottom: 20px;" >
+            <h5>Weight(km):</h5>
+            <input  name="Weight" type="text" style="width:250px ;margin-bottom:20px;">
+            <input class="btn btn-primary mb-2 btn btn-block" type="submit" value="calculate">
+            <h5 >your BMI is: </h5>
+            <p id="demo" style="color:blue;text-align: center;"></p>
+            <p id="demo2" style="text-align: center ; font-size:20px; ;"></p>
+        </form> 
+    <!-- js library  -->
+    <script src="js/main.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
